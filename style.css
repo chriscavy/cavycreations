@@ -1,0 +1,216 @@
+/* 
+ * Medium Purple: #723F7A
+ * Medium Blue: #42B1DE
+ * Dark Blue: #266680
+ * Dark Red: #9F2D35
+ * Light Beige: #E1DFD3
+ * Dark Beige: #C6B7B2
+ *  */
+
+
+:root {
+    --sansFontFamily: "Arial", "Meiryo UI", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body {
+    background: #ffffffef;
+    overflow: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-family: "Arial", sans-serif;
+    color: #E1DFD3;
+}
+
+.center-img {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline display */
+    margin: 0 auto; /* Center block element */
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+
+#mainDiv {
+    top: 15%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 8;
+    align-items: center;
+    justify-content: center;
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+    margin-right: 7px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    color: #723F7A
+}
+
+#MainText {
+    color: blue;
+    text-align: center!important;
+    font-size: medium;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 551;
+    line-height: 1.4;
+    margin-top: 2;
+    color: #723F7A;
+    margin-right: 32px;
+}
+
+h2 {
+    font-family: 'Calibri';
+    font-size: 20px;
+    line-height: 0;
+    color: #42B1DE;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h3 {
+    font-family: 'Calibri';
+    font-size: 20px;
+    line-height: 0;
+    color: #9F2D35;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align-last: center;
+}
+
+a:link {
+    color: darkolivegreen;
+}
+
+a:visited {
+   color: forestgreen;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+.special-link {
+    color: #42B1DE;
+    text-decoration: none;
+    font-size: 20px;
+    text-align-last: center;
+}
+
+.article {
+    color: #723F7A;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+p {
+    display: block;
+}
+
+.article-title {
+    font-family: 'Calibri';
+    color: #266680;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.alt-p {
+    color: #3bcee2;
+    margin-bottom: 4px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.settings-table {
+    width: 800px;
+    border-collapse: collapse;
+    background-color: #2e8e9b;
+    margin: 0 auto;
+    display: block;
+}
+
+.settings-table th, .settings-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: small;
+    color: #3bcee2;
+    margin-right: 5px;
+}
+
+.bordered-row {
+    border-bottom: 2px solid #42B1DE;
+    background-color: #E1DFD3;
+}
+
+.settings-table th {
+    background-color: #f2f2f2;
+    margin: .5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+b {
+    font-style: bold;
+    color: #723F7A
+}
+
+.primary-button {
+    width: 96px;
+    height: 30px;
+    background: linear-gradient(90deg, #FAAA47 0%, #FA1801 100%);
+    font-family: "Calibri" ;
+    font-style: bold;
+    background-size: 200% 200%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffffef;
+    cursor: pointer;
+    box-shadow: 0 0 0 #FAAA47;
+    transition:2s background-color;
+    animation: Animation 2s ease infinite;
+}
+
+.primary-button#load-status-display-btn {
+    height: 5px;
+    line-height: 3;
+    cursor: auto;
+}
+
